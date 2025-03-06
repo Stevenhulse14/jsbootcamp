@@ -8,7 +8,10 @@ h1 {
   background-color: blueviolet;
   text-align: center;
 }
-
+img {
+  width: 100px;
+  height: 100px;
+}
 button {
   width: 80px;
   height: 30px;
@@ -22,16 +25,27 @@ button:hover {
   display: flex;
   justify-content: space-evenly;
   height: 300px;
+  align-items: center;
 }
 
 .buttoncontainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 16px;
 }
 
 .pokemoncontainer {
   border: 2px dashed red;
   width: 50%;
   height: 50%;
+  display: flex;
+  justify-content: center;
+}
+.teamcontainer {
+  border: 2px dashed red;
+  width: 80%;
+  height: 300px;
+  display: flex;
+  margin: auto;
 }
