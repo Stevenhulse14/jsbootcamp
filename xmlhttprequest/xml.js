@@ -15,16 +15,3 @@
 
 // // Send the request
 // request.send();
-
-xhrGet("https://api.github.com/users")
-  .then((responseText) => {
-    // The raw response text:
-    console.log("Response text:", responseText);
-
-    // Optionally parse if it’s JSON:
-    const data = JSON.parse(responseText);
-    console.log("Parsed data:", data);
-  })
-  .catch((error) => {
-    console.error("Failed:", error);
-  });

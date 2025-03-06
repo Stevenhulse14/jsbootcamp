@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: blueviolet;
+  text-align: center;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: rgba(236, 16, 126, 0.9);
+}
+
+.generatorcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pokemoncontainer {
+  border: 2px dashed red;
+  width: 50%;
+  height: 50%;
+}
