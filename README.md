@@ -1,4 +1,3 @@
-Here’s a more detailed outline you could add or integrate into your curriculum to enhance clarity and depth. Feel free to copy or adapt any portion of it to meet your needs.
 
 ---
 
@@ -492,6 +491,3 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ### Final Thoughts
 
-Asynchronous JavaScript can be challenging, especially for those new to the concepts of the event loop and non-blocking I/O. By following a structured approach—starting with callbacks, then moving on to Promises and async/await—learners will build a solid foundation and be able to tackle real-world tasks confidently.
-
-Happy learning and coding!
